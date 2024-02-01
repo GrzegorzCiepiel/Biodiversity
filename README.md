@@ -55,23 +55,48 @@ The columns included are:
 
 1. **What is the distribution of conservation status for species?**
 
-NaN                   5633
-Species of Concern     161
-Endangered              16
-Threatened              10
-In Recovery              4
-Name: count, dtype: int64
-conservation_status
-NaN                  97%
-Species of Concern   2,8%
-Endangered           0,27%
-Threatened           0,17%
-In Recovery          0,07%
+      >NaN                   5633
+      >
+      >Species of Concern     161
+      >
+      >Endangered              16
+      >
+      >Threatened              10
+      >
+      >In Recovery              4
+      >
+      >Name: count, dtype: int64
+      >conservation_status
+      >
+      >NaN                  97%
+      >
+      >Species of Concern   2,8%
+      >
+      >Endangered           0,27%
+      >
+      >Threatened           0,17%
+      >
+      >In Recovery          0,07%
 
-As we can see above, 97% of data in this column contains empty values. We do not need to drop all column. The NaN values are equat to "Not covered by any form of protection".
+As we can see above, 97% of data in this column contains empty values. We do not need to drop all column. The NaN values are equat to "Not covered by any form of protection or not endangered".
 
 2. **Are certain types of species more likely to be endangered?**
 
-
+>
+>             category  not_protected  protected  protected in %
+>0
+>          Amphibian             72          7            8.86
+>
+>1               Bird            413         75           15.37
+>
+>2               Fish            115         11            8.73
+>
+>3             Mammal            146         30           17.05
+>
+>4  Nonvascular Plant            328          5            1.50
+>
+>5            Reptile             73          5            6.41
+>
+>6     Vascular Plant           4216         46            1.08
 
 
