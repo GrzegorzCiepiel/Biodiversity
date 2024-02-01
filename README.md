@@ -34,3 +34,8 @@ There are four main questions:
 4. Last part is to reflect what informations did we get from this analyse. Were we able to answer all question? Write explanation if not.
 
 ## Analyse
+
+I work on python 3.11 using pandas and matplotlib.pyplot modules
+
+FIrstly I import both csv files. I open first rows using .head() method and than do a initial analyse using .info() and .describe()
+
