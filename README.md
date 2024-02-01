@@ -39,3 +39,39 @@ I work on python 3.11 using pandas and matplotlib.pyplot modules
 
 FIrstly I import both csv files. I open first rows using .head() method and than do a initial analyse using .info() and .describe()
 
+The species_info.csv contains following columns:
+- **category** - taxonomy for each species
+- **scientific_name** - scientific name for each species
+- **common_names** - common names of each species
+- **conservation_status** - conservation status for each species
+
+
+The Observations.csv contains information from recorded sightings of different species throughout the national parks in the past 7 days. 
+
+The columns included are:
+- **scientific_name** - The scientific name of each species
+- **park_name** - The name of the national park
+- **observations** - The number of observations in the past 7 days
+
+1. **What is the distribution of conservation status for species?**
+
+NaN                   5633
+Species of Concern     161
+Endangered              16
+Threatened              10
+In Recovery              4
+Name: count, dtype: int64
+conservation_status
+NaN                  97%
+Species of Concern   2,8%
+Endangered           0,27%
+Threatened           0,17%
+In Recovery          0,07%
+
+As we can see above, 97% of data in this column contains empty values. We do not need to drop all column. The NaN values are equat to "Not covered by any form of protection".
+
+2. **Are certain types of species more likely to be endangered?**
+
+
+
+
