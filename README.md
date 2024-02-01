@@ -84,19 +84,25 @@ As we can see above, 97% of data in this column contains empty values. We do not
 
 >
 >             category  not_protected  protected  protected in %
->0
->          Amphibian             72          7            8.86
+>  
+>             Amphibian          72          7            8.86
 >
->1               Bird            413         75           15.37
+>                 Bird          413         75           15.37
 >
->2               Fish            115         11            8.73
+>                 Fish          115         11            8.73
 >
->3             Mammal            146         30           17.05
+>               Mammal          146         30           17.05
 >
->4  Nonvascular Plant            328          5            1.50
+>       Nonvasc. Plant          328          5            1.50
 >
->5            Reptile             73          5            6.41
+>              Reptile           73          5            6.41
 >
->6     Vascular Plant           4216         46            1.08
+>       Vascular Plant         4216         46            1.08
+>
+
+As we can see big vertebrates like birds and mammals are the most endangered. Probably because they are the most studied groups of species.
+
+
+3. Are the differences between species and their conservation status significant?
 
 
